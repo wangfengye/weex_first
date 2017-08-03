@@ -1,0 +1,6 @@
+{
+  "AppName":"first",
+  "AppId":"com.alibaba.weex",
+  "SplashText":"Hello maple test",
+  "WeexBundle":"http://192.168.168.39:8080/dist/index.js"
+}
