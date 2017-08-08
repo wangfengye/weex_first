@@ -14,7 +14,12 @@
 6. web打包
     weexpack build web
 7. web运行
-    weexpack run web
-8. 热更新(实时更新代码)
-    npm run web_watch
-    
+    weexpack run web(若失败,可运行 npm run serve)
+8. 热更新(实时更新代码 [x])
+    npm run serve_watch
+
+#### Issue
+* web打包失败 ERROR in js/test.js from UglifyJs
+        配置babel，把配置放到文件【.babelrc】中 文件内容:```{"presets": ["es2015"]}```
+        
+* Vue中的数据双向绑定在改变数组时,无法检测;
